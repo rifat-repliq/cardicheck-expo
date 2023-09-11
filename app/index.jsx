@@ -3,7 +3,7 @@ import { View, Text } from "react-native";
 export default function Page() {
   return (
     <View>
-      <Text>index</Text>
+      <Text className="text-red-500">Tailwind integrated</Text>
     </View>
   );
 }
