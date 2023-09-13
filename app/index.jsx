@@ -1,11 +1,10 @@
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
 import LandingPageNavbar from "../components/pages/landing-page/LandingPageNavbar";
-import Brand from "../components/shared/Brand/Brand";
 
 export default function Page() {
   return (
     <View>
-      <LandingPageNavbar />
+      {/* <LandingPageNavbar /> */}
 
       <ScrollView className="">
         <View className="p-4 h-80 bg-primary-500 justify-center gap-2">
