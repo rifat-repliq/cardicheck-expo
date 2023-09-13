@@ -15,14 +15,14 @@ export default function Layout() {
         name="login"
         options={{
           drawerLabel: "Login",
-          title: "Login",
+          title: <Brand />,
         }}
       />
       <Drawer.Screen
         name="register"
         options={{
           drawerLabel: "Register",
-          title: "Register",
+          title: <Brand />,
         }}
       />
     </Drawer>
